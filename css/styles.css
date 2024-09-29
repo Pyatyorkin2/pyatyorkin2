@@ -1,0 +1,205 @@
+/**
+ * Базовые стили для всего сайта
+ */
+
+html {
+	background-color: #000;
+} 
+
+body {
+	position: relative;
+	font-family: "Mulish", sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+	background-color: #000;
+}
+
+
+/**
+ * Другие стили
+ */
+.navbar {
+	width: 100%;
+	height: 80px;
+	background-color: #000;
+}
+
+.navbar .container {
+    height: inherit;
+	display: flex;
+	margin-left: 17%;
+	align-items: center;
+}
+
+.navbar-menu {
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0;
+	
+}
+
+.navbar-menu li {
+	display: inline-block;
+	
+}
+
+.navbar-menu li a {
+	display: inline-block;
+	color: aliceblue;
+	text-decoration: none;
+	padding: 10px;
+	transition: all .2s ease-in-out;
+	/* font-family: "Mulish", sans-serif; */
+	
+	
+}
+
+.navbar-menu li a:hover {
+	color: #ff0000;
+}
+
+.navbar-wrap {
+	display: flex;
+	flex-flow: row nowrap;
+	margin-left: 100px;
+	padding-top: 0px;
+	font-weight: 100;
+	font-size: 21px;
+}
+
+.callback {
+	margin-left: 100px;
+	padding: 10px;
+	color: #ffffff;
+	text-decoration: none;
+	transition: all .1s ease-in-out;
+	
+}
+
+.callback:hover {
+	color: rgb(255, 0, 0);
+	transform: scale(1.04);
+}
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: 26px;
+	text-decoration: none;
+	color: #ff0000;
+}
+
+.navbar-brand:hover {
+	color: aliceblue;
+	transition: all .1s ease-in-out;
+}
+
+.logo {
+	padding-top: 10px;
+	width: 90px;
+}
+
+.hero {
+	background: url(https://s.iimg.su/s/29/CqHYWYZmvsQVoNDAA68Extaj8rbyklpyyWiY8v6c.jpg) no-repeat bottom left;
+	background-size: 100vw 100vh;
+	padding: 281px;
+	background-color: #000;
+  }
+
+.hero__button {
+	  display: block;
+	  max-width: 200px;
+	  margin-top: 50px;
+	  text-align: center;
+	  color: #fff;
+	  padding: 25px;
+	  background-color: red;
+	  border-radius: 10px;
+	  transition: transform .5s;
+	  text-decoration: none;
+  }
+
+.hero__title {
+	display: flex;
+	font-weight: 300;
+	font-size: 100px;
+	color: aliceblue;
+}
+
+.hero__subtitle {
+	color: aliceblue;
+}
+
+h4 {
+	display: flex;
+	justify-content: center;
+	margin-top: 170px;
+	margin-bottom: 50px;
+	color: #fff;
+	font-weight: 300;
+	font-size: 50px;
+}
+
+p {
+	margin-top: 20px;
+    font-size: 35px;
+    background-color: rgb(0, 0, 0);
+	color: #fff;
+   
+}
+
+.conteiner {
+   margin: 20px;
+   
+   display: inline-block;
+    
+}
+
+.outher {
+	margin-top: 80px;
+   margin-bottom: 100px;
+} 
+
+.main {
+text-align: center;
+}
+
+.conteiner>a>img {
+    max-width: 500px;
+}
+
+.conteiner>a>img:hover {
+    border: 5px solid #ffffff; /* Ширина, вид и цвет рамки */
+	transition: all .3s ease-in-out;
+}
+
+.onemoments {
+	background-color: #fff;
+}
+
+.mainh {
+	display: flex;
+	justify-content: center;
+	margin-top: 70px;
+	font-size: 60px;
+}
+
+.tdmin>img {
+	max-width: 80px;
+}
+
+.tdnfo {
+	font-weight: 100;
+	font-size: 20px;
+}
+
+.row {
+	display: flex;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-bottom: 70px;
+}
+
